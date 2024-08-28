@@ -1,5 +1,5 @@
 'use client'
-import { useEffect } from 'react';
+
 import LocomotiveScroll from 'locomotive-scroll';
 import Footer from '@/components/Footer';
 import Home from '@/components/Home';
@@ -11,16 +11,8 @@ import Work from '@/components/Work';
 
 const Page = () => {
 
-  useEffect(() => {
-    const scroll = new LocomotiveScroll({
-      el: document.querySelector('.scroll-container'),
-      smooth: true,
-    });
-
-    return () => {
-      scroll.destroy(); // Cleanup on component unmount
-    };
-  }, []);
+  const scroll = new LocomotiveScroll()
+  
 
   return (
     <div className="overflow-x-hidden scroll-container">
