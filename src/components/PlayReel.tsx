@@ -47,7 +47,7 @@ const PlayReel = () => {
           ref={videodiv}
           autoPlay muted loop
           className="w-40 sm:w-96 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-          src="https://download-video.akamaized.net/v3-1/playback/334619e0-f92f-4627-ba88-dfe521b4e062/9e976370?__token__=st=1724524983~exp=1724539383~acl=%2Fv3-1%2Fplayback%2F334619e0-f92f-4627-ba88-dfe521b4e062%2F9e976370%2A~hmac=8bf06b710adefadbb297c8bd8890aa615ca652ffceffc3eedcf73a84ea4f5e43&r=dXMtY2VudHJhbDE%3D">
+          src="https://player.vimeo.com/progressive_redirect/playback/914803778/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5344c0e4fea63ca54bb433621ca0be7b9470b475583fa68b26de2b6e380a390a">
         </video>
       </div>
       <div className="overlay z-50 w-full h-full flex flex-col items-center justify-between">
