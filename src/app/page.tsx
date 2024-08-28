@@ -1,6 +1,6 @@
 'use client'
 
-import LocomotiveScroll from 'locomotive-scroll';
+
 import Footer from '@/components/Footer';
 import Home from '@/components/Home';
 import Navbar from '@/components/Navbar';
@@ -11,7 +11,6 @@ import Work from '@/components/Work';
 
 const Page = () => {
 
-  const scroll = new LocomotiveScroll()
   
 
   return (
